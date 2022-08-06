@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+}
+
+.header a {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+
+.header a:hover {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 10px;
+    color: white;
+    opacity: 1;
+    text-align: end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dropdown .dropdown-menu:hover #show {
+    display: block;
+}
+
+.hover-show {
+    display: none;
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.hover-show h1 {
+    color: red;
+    text-align: center;
+}
+
+.hover-show a {
+    text-decoration: none;
+    font-size: 16px;
+    width: 100px;
+    text-align: left;
+    vertical-align: middle;
+    overflow: hidden;
+    line-height: 1.5px;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.hover-show a:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+.head2 .list {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid red;
+    display: inline-block;
+    padding-bottom: -10px;
+}
+
+.head2:hover .list {
+    transition: transform;
+    transform: rotate(180deg);
+}
